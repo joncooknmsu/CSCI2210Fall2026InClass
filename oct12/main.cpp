@@ -25,11 +25,6 @@
 
 Dog d2("Ziva","grey",95); // global OBJECT variable
 
-// Main code addition: demonstration of object call-by-value
-// (without the &) and call by reference (with the &). When
-// we have call-by-value, the argument object gets COPIED (or
-// cloned) into the parameter object. Normally we don't really
-// want this and so declaring a reference parameter is better!
 void playWithDog(Dog& d)  // THIS IS THE VALUE OF Call-by-REFERENCE
 {
    std::cout << "We're playing!\n";
