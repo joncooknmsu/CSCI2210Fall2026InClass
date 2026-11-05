@@ -17,6 +17,10 @@ class Dog
 {
 private String name;
 
+public static void classMethod() {
+   System.out.println("Dog static method");
+}
+
 public Dog(String name)
 {
    System.out.println("Dog constructor for "+name);
